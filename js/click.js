@@ -15,7 +15,7 @@ function setup() {
   textFont(font);
   background(255);
   textAlign(CENTER, CENTER);
-  textSize(100);
+  textSize(80);
   fill(0);
 }
 
