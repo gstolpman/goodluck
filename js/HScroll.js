@@ -7,7 +7,7 @@ var scrollingRight3 = true;
 var delayFrames = 30;
 
 function preload(){
-  font = loadFont('../fonts/JacquardaBastarda9Charted-Regular.ttf');
+  font = loadFont('fonts/JacquardaBastarda9Charted-Regular.ttf');
 }
 
 function setup() {

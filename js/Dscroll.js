@@ -8,7 +8,7 @@ let frozenColor;
 let scrollSpeed = 15; 
 
 function preload() {
-  customFont = loadFont('../fonts/JacquardaBastarda9Charted-Regular.ttf');
+  customFont = loadFont('fonts/JacquardaBastarda9Charted-Regular.ttf');
 }
 
 function setup() {

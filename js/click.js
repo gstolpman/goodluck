@@ -7,7 +7,7 @@ var words = ["You're", "standing", "face", "to", "face", "with", "I", "told", "y
 var currentIndex = 0;
 
 function preload() {
-  font = loadFont('../fonts/JacquardaBastarda9Charted-Regular.ttf');
+  font = loadFont('fonts/JacquardaBastarda9Charted-Regular.ttf');
 }
 
 function setup() {
