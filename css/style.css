@@ -1,0 +1,39 @@
+@font-face {
+  font-family: jacquard;
+  src: url('../fonts/JacquardaBastarda9Charted-Regular.ttf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+    background-color: black;
+    color: white;
+}
+canvas {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+#next-page-link {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  font-size: 30pt;
+  text-decoration: none;
+}
+
+#instructions {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "jacquard"; 
+  font-size: 40px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 10;
+}
