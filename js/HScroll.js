@@ -38,7 +38,7 @@ function draw() {
     var x2 = (width - (frameCount * scrollSpeed) % (width + textWidth2)) + textWidth2 / 2;
   }
   // Draw the second text
-  text("With your head in your hands,", x2, height / 2.2);
+  text("With your head in your hands,", x2, height / 2);
   
   // Calculate x position for the third text based on scrolling direction
   if (scrollingRight3) {
