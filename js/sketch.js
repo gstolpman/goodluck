@@ -3,7 +3,7 @@
 var font;
 
 function preload() {
-  font = loadFont('../fonts/JacquardaBastarda9Charted-Regular.ttf');
+  font = loadFont('fonts/JacquardaBastarda9Charted-Regular.ttf');
 }
 
 function Array2D(cols, rows) {
