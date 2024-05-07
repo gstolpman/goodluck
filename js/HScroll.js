@@ -1,6 +1,6 @@
 var font;
 var textWidth1, textWidth2, textWidth3;
-var scrollSpeed = 15;
+var scrollSpeed = 14;
 var scrollingRight1 = true; 
 var scrollingRight2 = true; 
 var scrollingRight3 = true; 

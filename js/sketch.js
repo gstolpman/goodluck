@@ -38,8 +38,8 @@ function setup() {
   shuffleButton.style('font-family', 'jacquard');
   shuffleButton.style("background-color", "black");
   shuffleButton.style("color", "white");
-  shuffleButton.style("width", "200px"); 
-  shuffleButton.style("height", "100px");
+  shuffleButton.style("width", "150px"); 
+  shuffleButton.style("height", "70px");
   shuffleButton.style("font-size", "28px");
   
 }
