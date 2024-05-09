@@ -16,7 +16,7 @@ function Array2D(cols, rows) {
 
 var cols = 5;
 var rows = 3;
-var spacing = 300;
+var spacing = 500;
 var grid;
 var shuffleButton;
 
