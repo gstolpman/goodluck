@@ -22,7 +22,8 @@ function draw() {
   background(0);
   if (!frozen) { 
     for (let y = yStart; y > -height; y -= 90) { 
-      fill(255, -y / 2 + 55, 100); 
+      let colorRange = map(y, 0, -height, 55, 255);
+      fill(255, colorRange, 100); 
       text(content, width / 2, y);
     }
     yStart += scrollSpeed;

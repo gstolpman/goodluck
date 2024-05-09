@@ -21,7 +21,10 @@ var grid;
 var shuffleButton;
 
 function setup() {
-  createCanvas(cols * spacing, rows * spacing);
+  var canvas = createCanvas(cols * spacing, rows * spacing);
+  var canvasX = (windowWidth - width) / 2; // Center canvas horizontally
+  var canvasY = (windowHeight - height) / 2; // Center canvas vertically
+  canvas.position(canvasX, canvasY);
   textFont(font);
   background('black');
   grid = new Array2D(cols, rows);
@@ -38,12 +41,10 @@ function setup() {
   shuffleButton.style('font-family', 'jacquard');
   shuffleButton.style("background-color", "black");
   shuffleButton.style("color", "white");
-  shuffleButton.style("width", "150px"); 
-  shuffleButton.style("height", "70px");
-  shuffleButton.style("font-size", "30px");
-
-  var margin = width * 1;
-  shuffleButton.position(margin, margin);
+  shuffleButton.style("width", "200px"); 
+  shuffleButton.style("height", "90px");
+  shuffleButton.style("font-size", "50px");
+  shuffleButton.position(canvasX, canvasY + height + 20);
 }
 
 function mousePressed() {
