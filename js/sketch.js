@@ -16,7 +16,7 @@ function Array2D(cols, rows) {
 
 var cols = 5;
 var rows = 3;
-var spacing = 200;
+var spacing = 300;
 var grid;
 var shuffleButton;
 
@@ -41,7 +41,9 @@ function setup() {
   shuffleButton.style("width", "150px"); 
   shuffleButton.style("height", "70px");
   shuffleButton.style("font-size", "30px");
-  
+
+  var margin = width * 0.2;
+  shuffleButton.position(margin, margin);
 }
 
 function mousePressed() {
@@ -129,7 +131,7 @@ function draw() {
       var num = grid[i][j];
       if (num != 0) {
         fill(255);
-        textSize((30/300)*width);
+        textSize((20/300)*width);
         textAlign(CENTER, CENTER);
         switch (num) {
           case 1:
