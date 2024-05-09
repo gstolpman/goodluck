@@ -42,7 +42,7 @@ function setup() {
   shuffleButton.style("height", "70px");
   shuffleButton.style("font-size", "30px");
 
-  var margin = width * 0.2;
+  var margin = width * 0.8;
   shuffleButton.position(margin, margin);
 }
 
@@ -131,7 +131,7 @@ function draw() {
       var num = grid[i][j];
       if (num != 0) {
         fill(255);
-        textSize((20/300)*width);
+        textSize((15/300)*width);
         textAlign(CENTER, CENTER);
         switch (num) {
           case 1:
